@@ -1,0 +1,79 @@
+
+:root {
+    --primary-color: #005F73; 
+    --secondary-color: #000000; 
+    --Accent1-color: #0A9396; 
+    --Accent2-color: #2B9348;
+    --text-color: #333333; 
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-family: "Montserrat", Roboto;
+    color:#2B9348;
+} 
+
+.hero {
+    position: relative;
+
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1{
+    position: absolute;
+    top: 4%;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    background-color: #00000070;
+    padding: 10px 0px;
+    color: var(--Accent1-color);
+}
+
+  .hero article {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    padding: 20px;
+    width: 85%;
+    background-color: #00000070;
+
+  }
+
+  .hero article p {
+    color: var(--Accent2-color);
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .hero article img {
+    float: right;
+    margin-left: 15px;
+    max-width: 30%;
+    height: auto;
+  }
+
+  section img {
+    display: block;
+    width: 300px;
+  }
+
+  footer nav a img {
+    width: 24px;
+    height: auto;
+  }
