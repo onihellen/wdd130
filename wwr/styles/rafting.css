@@ -1,18 +1,17 @@
+ :root {
+   --primary-color: #005F73; 
+   --secondary-color: #000000; 
+   --Accent1-color: #0A9396; 
+   --Accent2-color: #2B9348;
+   --text-color: #333333; 
+ }
 
-:root {
-    --primary-color: #005F73; 
-    --secondary-color: #000000; 
-    --Accent1-color: #0A9396; 
-    --Accent2-color: #2B9348;
-    --text-color: #333333; 
-}
-
-body {
-    background-color: var(--background-color);
-    color: var(--text-color);
+  body {
+   background-color: var(--background-color);
+   color: var(--text-color);
     margin: 0 auto;
     padding: 0 20px;
-}
+ }
 
 a {
     text-decoration: none;
@@ -77,3 +76,65 @@ h1, h2 {
     width: 24px;
     height: auto;
   }
+
+  header {
+    display: grid;
+    grid-template-columns: 182px 1fr 2fr;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    list-style: none;
+  }
+  header img{
+    width: 75px;
+    height: auto;
+  }
+  nav a {
+    flex: 1 1 100%;
+    display: block;
+    color: #005F73;
+    text-decoration: none;
+    padding: 20px;
+  }
+  nav a:hover {
+      color: #0A9396;
+  }
+
+  .history {
+    display: block;
+    text-align: center;
+  }
+
+  .image {
+    display: flex;
+  }
+
+  .adventure {
+    display: block;
+    text-align: center;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: antiquewhite;
+
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 100px;
+  }
+
+  .social-icons img {
+    width: 30px;
+    height: auto;
+  }
+
+  .image figure img {
+    width: 120px;
+  }
+      
